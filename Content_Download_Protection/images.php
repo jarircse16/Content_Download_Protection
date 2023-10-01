@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
     <link rel="stylesheet" type="text/css" href="css/background.css">
+    <!-- Client-side code to disable right-click menu -->
+    <script>
+        // Disable right-click menu for the entire page
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
 </head>
 <body class="gradient-bg">
     <center><h1>Image Gallery</h1>
